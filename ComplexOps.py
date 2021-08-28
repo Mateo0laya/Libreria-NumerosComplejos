@@ -69,7 +69,3 @@ def fase(a):
     ang = math.atan(a[1]/a[0])              #Calcula la fase del numero complejo
     ang = (ang*180)/math.pi
     return (ang)
-
-def main():
-    print(fase((4,3)))
-main()
